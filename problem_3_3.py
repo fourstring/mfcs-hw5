@@ -14,7 +14,7 @@ def main():
         ] for n in range(4, 34, 2)]),
         columns=['N', 'isposdef(A_v)', 'isposdef(A_f)', 'cond(V)', 'cond(F)']
     )
-    print(df)
+    return df
 
 
 if __name__ == '__main__':
